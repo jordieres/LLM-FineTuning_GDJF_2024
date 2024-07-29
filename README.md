@@ -17,8 +17,8 @@ A su vez, estas tareas pueden dividirse en sub-tareas:
     2. Curado manual (opcional).
     3. Extractor de datos del PDF a XML con CERMINE.
     4. Extractor de frases y de sus respectivas refs de XML a CSV.
-    5. Unido de CSVs (para tratar con un solo archivo) y limpieza de CSV (eliminación automática de entradas vacías por errores de pareo, de relación de referencias, etc). También se puede realizar un pre-formateado de los datos para prepararlos para su posterior uso (separador de lineas en el CSV, ya que en ocasiones hay frases que contienen mas de 1 referencia).
-    6. Uso de API de Crossref para asociar las referencias (títulos y años de publicación) con sus respectivos DOIs.
+    5. Unido de CSVs (para tratar con un solo archivo) y limpieza de CSV (eliminación automática de entradas vacías por errores de pareo, de relación de referencias, etc). 
+    6. Uso de API de Crossref para asociar las referencias (títulos y años de publicación) con sus respectivos DOIs. También se puede realizar un pre-formateado de los datos para prepararlos para su posterior uso (separador de lineas en el CSV, ya que en ocasiones hay frases que contienen mas de 1 referencia).
     7. Formateado de las frases y los DOIs como pares pregunta-respuesta. Se hará uso de una herramienta externa (RelevanceAI). Tras este paso se obtiene una coleccion en formato CSV con formato adecuado para el fine-tuning (formato input-output).
 
 2. Fine-Tuning.
