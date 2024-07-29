@@ -1,8 +1,11 @@
 # LLM-FineTuning_GDJF_2024
 Fine Tuning for LLM 
 
-## Borrador
-El proyecto conciste en hacer un ajuste fino o "fine tuning" de un LLM (Large Language Model) para su posterior uso como un asistente de investigación en un tema determinado, buscando referencias exactas en forma de "Digital Object Identifiers" o "DOIs" con el fin de disminuir o incluso eliminar problemas de halucinación del modelo. Para realizar este proyecto, se dividen las tareas en 3 áreas principales:
+## Introducción
+El proyecto conciste en hacer un ajuste fino o "fine tuning" de un LLM (Large Language Model) para su posterior uso como un asistente de investigación en un tema determinado, buscando referencias exactas en forma de "Digital Object Identifiers" o "DOIs" con el fin de disminuir o incluso eliminar problemas de halucinación del modelo.
+
+## Metodología
+Para realizar este proyecto, se dividen las tareas en 3 áreas principales:
 
 1. Extracción y formateado de datos de entrenamiento
 2. Fine-Tuning del modelo
@@ -30,3 +33,6 @@ A su vez, estas tareas pueden dividirse en sub-tareas:
     2. Ejecución de los distintos modelos con un número específico de prompts.
     3. Con las referencias obtenidas en el paso anterior, búsqueda del artículo en Google Scholar.
     4. Evaluación de presencia de palabres clave en los resúmenes de los artículos científicos.
+
+## Uso propio
+Se proporcionan carpetas numeradas siguiendo los distintos pasos de la metodología propuesta, con READMEs explicativos y el código usado en cada caso.
