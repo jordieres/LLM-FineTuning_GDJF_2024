@@ -5,4 +5,4 @@ Con motivo de facilitar la creación y el uso de modelos como asistentes de inve
 
 Consiste en comparar las técnicas de **Fine-Tuning** de un modelo de lenguaje y varias implementaciones de técnicas de **Retrieval-Augmented Generation**, con el fín de evaluar la viabilidad de uso de ambas alternativas en un asistente de investigación en un tema determinado. Este deberá buscar referencias exactas en forma de "Digital Object Identifiers" o "DOIs" con el fin de disminuir o incluso eliminar problemas de halucinación del modelo.
 
-Se recomienda el uso de la técnica RAG para el desarrollo de un asistente de investigación, debido a que los resultados obtenidos con el Fine-Tuning del modelo Llama3.1 8B Instruct cuantizado a 4-bits no proporcionaba resultados relevantes al usuario de forma consistente.
+**Se recomienda el uso de la técnica RAG para el desarrollo de un asistente de investigación, debido a que los resultados obtenidos con el Fine-Tuning del modelo Llama3.1 8B Instruct cuantizado a 4-bits no proporcionaba resultados relevantes al usuario de forma consistente.**
