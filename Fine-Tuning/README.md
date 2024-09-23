@@ -1,8 +1,7 @@
-# LLM-FineTuning_GDJF_2024
-Fine Tuning for LLM 
+# Fine-Tuning
 
 ## Introducción
-El proyecto conciste en hacer un ajuste fino o "fine tuning" de un LLM (Large Language Model) para su posterior uso como un asistente de investigación en un tema determinado, buscando referencias exactas en forma de "Digital Object Identifiers" o "DOIs" con el fin de disminuir o incluso eliminar problemas de halucinación del modelo.
+Esta parte del proyecto conciste en hacer un ajuste fino o "fine tuning" de un LLM (Large Language Model) para su posterior uso como un asistente de investigación en un tema determinado, buscando referencias exactas en forma de "Digital Object Identifiers" o "DOIs" con el fin de disminuir o incluso eliminar problemas de halucinación del modelo.
 
 ## Metodología
 La metodología optada es la de Supervised fine-tuning (o SFT), en la que se proporcionan pares input-output como ejemplo los esperados del modelo, para así ajustar a lo largo de un número de "pasadas" los pesos del modelo y conseguir tras el entreno una respuesta mas cercana a lo esperado.
